@@ -3,7 +3,7 @@
 > **Universidad de Cuenca**  
 > **Facultad de Ingeniería**  
 > **Asignatura:** Ciencia de Datos · Unidad 2 (Learning Analytics)  
-> **Equipo de Trabajo:** [Nombres de los integrantes]  
+> **Equipo de Trabajo:** Xavier Peña y Joseph Salamea
 > **Período Lectivo:** Octubre 2026 - Febrero 2027  
 
 ---
