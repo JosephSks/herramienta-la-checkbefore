@@ -8,7 +8,7 @@
 
 ---
 
-## 📖 Descripción General del Proyecto
+## Descripcion General del Proyecto
 
 **CheckBefore** es una propuesta de herramienta de *Learning Analytics* diseñada específicamente para el entorno virtual de aprendizaje **eVirtual (Moodle)** de la Universidad de Cuenca. Su objetivo es diagnosticar el nivel de interacción previa y preparación de los estudiantes frente a tareas y actividades evaluables complejas, habilitando alertas tempranas para el docente 48 horas antes de la fecha límite de entrega.
 
@@ -16,7 +16,7 @@ A diferencia de los recordatorios tradicionales basados en calendario (que únic
 
 ---
 
-## 📋 Canvas de Diseño de Learning Analytics (Fase 1)
+## Canvas de Diseno de Learning Analytics (Fase 1)
 
 ### Bloque 1: Actor y decisión
 * **Actor principal:** Docente titular de asignaturas de grado en la Universidad de Cuenca. *(Actor secundario: Estudiantes matriculados).*
@@ -76,23 +76,24 @@ A diferencia de los recordatorios tradicionales basados en calendario (que únic
 
 ---
 
-## 🗂️ Estructura del Repositorio
+## Estructura del Repositorio
 
 El proyecto se organiza en las siguientes carpetas correspondientes a las fases del trabajo aplicativo:
 
 ```text
 herramienta-la-checkbefore/
-├── .gitignore               # Configuración de exclusiones de Git
-├── README.md                # Canvas de diseño y documentación general del proyecto
-├── fase2_datos/             # Fase 2: Diccionario de datos y consideraciones éticas
-├── fase3_wireframes/        # Fase 3: Diseños de interfaz, flujo de intervención y arquitectura
+├── .gitignore               # Configuracion de exclusiones de Git
+├── README.md                # Canvas de diseno y documentacion general del proyecto
+├── fase2_datos/             # Fase 2: Diccionario de datos y consideraciones eticas
+├── fase3_wireframes/        # Fase 3: Disenos de interfaz, flujo de intervencion y arquitectura
 ├── fase4_notebook/          # Fase 4: Prueba de concepto en Python (Google Colab)
-└── fase6_validacion/        # Fase 6: Diseño del plan de validación en tres niveles
+├── fase5_pitch/             # Fase 5: Pitch oral de 6 minutos, guion tecnico y presentacion PPTX
+└── fase6_validacion/        # Fase 6: Diseno del plan de validacion en tres niveles
 ```
 
 ---
 
-## 🤖 Declaración de Uso de IA Generativa
+## Declaracion de Uso de IA Generativa
 
 En cumplimiento con los requerimientos académicos del curso:
 * **Herramientas utilizadas:** Asistentes de IA generativa basados en modelos LLM.
