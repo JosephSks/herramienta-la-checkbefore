@@ -70,9 +70,12 @@ ehthumbs.db
 Desktop.ini
 
 # ==========================================
-# Configuraciones de editores
+# Configuraciones de editores y agentes
 # ==========================================
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
+.agents/
+.agent/
+
