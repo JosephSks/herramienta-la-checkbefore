@@ -1,17 +1,14 @@
-# Fase 6: Diseño del Plan de Validación
+# Fase 6: Plan de Validacion
 
-En esta carpeta se desarrollará el diseño metodológico de validación para **CheckBefore** en tres niveles.
+Esta carpeta contiene el diseno metodologico del plan de validacion para **CheckBefore**.
 
-## Contenido planificado:
-1. **Validación Técnica:**
-   - Métricas de desempeño del indicador y modelo (precisión, sensibilidad, especificidad, AUC).
-   - Definición de particiones de datos y umbrales aceptables.
-2. **Validación Pedagógica:**
-   - Formulación de hipótesis comprobable.
-   - Diseño cuasiexperimental de comparación (grupo experimental vs. grupo de control).
-   - Definición de variable dependiente y tamaño muestral estimado.
-3. **Validación de Usabilidad y Adopción:**
-   - Protocolo de aplicación del instrumento System Usability Scale (SUS).
-   - Métricas de adopción docente y estudiantil.
-4. **Cinco Preguntas Estadísticas Abiertas:**
-   - Cuestionamientos metodológicos orientados a resolverse en la Unidad 3 de Estadística.
+## Contenido
+
+- [plan_de_validacion.md](plan_de_validacion.md) - Documento principal con:
+  1. Hipotesis central comprobable.
+  2. Diseno cuasiexperimental (Grupo A experimental vs. Grupo B de control).
+  3. Validacion Tecnica: metricas de desempeno del modelo (Recall, Precision, Especificidad, ROC-AUC) con umbrales aceptables y protocolo de particion de datos.
+  4. Validacion Pedagogica: indicadores de impacto en entregas y calificaciones, fuentes de datos y criterio de exito (reduccion >= 20% en no entregas).
+  5. Validacion de Usabilidad: protocolo SUS para docentes y encuesta de percepcion para estudiantes con metas cuantitativas.
+  6. Cronograma de validacion de 14 semanas.
+  7. Cinco preguntas estadisticas formales abiertas para la Unidad 3 de Estadistica.
