@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750" style="background-color: #f4f6f8; font-family: Arial, sans-serif;">
+  <!-- Dimmed Background Representation -->
+  <rect x="0" y="0" width="1000" height="750" fill="#0f172a" opacity="0.6"/>
+
+  <!-- Modal Box -->
+  <rect x="150" y="90" width="700" height="570" rx="10" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Modal Header -->
+  <rect x="150" y="90" width="700" height="60" rx="10" fill="#1e293b"/>
+  <text x="180" y="127" fill="#ffffff" font-size="17" font-weight="bold">Intervencion Pedagogica - Envio de Orientacion Previa</text>
+  <text x="815" y="127" fill="#cbd5e1" font-size="18" font-weight="bold">X</text>
+
+  <!-- Modal Content -->
+  <!-- Selector Plantilla -->
+  <text x="180" y="185" fill="#334155" font-size="13" font-weight="bold">Seleccionar Plantilla de Orientacion:</text>
+  <rect x="180" y="195" width="640" height="40" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  <text x="200" y="220" fill="#0f172a" font-size="13">Plantilla 1: Recordatorio de Lectura Clave para Tarea 2</text>
+  <text x="790" y="220" fill="#64748b" font-size="12">v</text>
+
+  <!-- Destinatarios Info -->
+  <text x="180" y="265" fill="#334155" font-size="13" font-weight="bold">Destinatarios Seleccionados (5 Estudiantes en Nivel Rojo - IPP &lt; 40%):</text>
+  <rect x="180" y="275" width="640" height="65" rx="6" fill="#fef2f2" stroke="#fecaca"/>
+  <text x="195" y="298" fill="#991b1b" font-size="12" font-weight="bold">Filtro Automatico Aplicado: Alumnos sin entrega a 48h con preparacion insuficiente.</text>
+  <text x="195" y="322" fill="#7f1d1d" font-size="12">Carlos Perez (25%), Maria Lopez (25%), Esteban Andrade (10%), Sofia Cabrera (30%), Mateo Torres (20%)</text>
+
+  <!-- Preview Textarea -->
+  <text x="180" y="365" fill="#334155" font-size="13" font-weight="bold">Mensaje a Enviar (Personalizable):</text>
+  <rect x="180" y="375" width="640" height="170" rx="6" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.5"/>
+  
+  <text x="200" y="405" fill="#1e293b" font-size="12">Estimado/a estudiante,</text>
+  <text x="200" y="430" fill="#1e293b" font-size="12">Te recordamos que la Tarea 2 (Ejercicios de Algebra Lineal) vence en menos de 48 horas.</text>
+  <text x="200" y="455" fill="#1e293b" font-size="12">Hemos notado que aun tienes recursos clave pendientes de consulta en eVirtual (Guia Tema 3).</text>
+  <text x="200" y="480" fill="#1e293b" font-size="12">Te sugerimos revisarlos antes de realizar la entrega para asegurar la calidad de tu trabajo.</text>
+  <text x="200" y="515" fill="#64748b" font-size="12">Saludos cordiales, Profr. Xavier Pena.</text>
+
+  <!-- Modal Footer Buttons -->
+  <line x1="150" y1="585" x2="850" y2="585" stroke="#e2e8f0"/>
+
+  <rect x="520" y="602" width="110" height="38" rx="6" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="548" y="626" fill="#475569" font-size="13" font-weight="bold">Cancelar</text>
+
+  <rect x="645" y="602" width="175" height="38" rx="6" fill="#dc2626"/>
+  <text x="660" y="626" fill="#ffffff" font-size="13" font-weight="bold">Enviar Acompanamiento</text>
+</svg>
