@@ -9,7 +9,7 @@ Autores: Xavier Pena y Joseph Salamea
 
 ### Diapositiva 1: Portada Institucional
 * **Titulo principal:** CheckBefore: Sistema de Analitica del Aprendizaje para el Soporte a Decisiones Pedagogicas
-* **Subtitulo:** De la Deteccion Temprana de Procrastinacion al Acompanamiento Formativo en eVirtual Moodle
+* **Subtitulo:** De la Deteccion Temprana de Procrastinacion al Acompanamiento Formativo en Moodle
 * **Institucion:** Universidad de Cuenca | Facultad de Ingenieria
 * **Asignatura:** Ciencia de Datos - Unidad 2 (Learning Analytics)
 * **Expositores:** Xavier Pena y Joseph Salamea
@@ -32,7 +32,7 @@ Autores: Xavier Pena y Joseph Salamea
 
 ### Diapositiva 3: Fuentes de Datos y Marco Etico (Minuto 2 - Parte A)
 * **Encabezado:** Datos Institucionales Existentes y Privacidad por Diseno
-* **Fuentes de eVirtual (Moodle UCuenca):**
+* **Fuentes de Moodle (UCuenca):**
   * `mdl_logstore_standard_log`: Marcas temporales de eventos de visualizacion y descarga (`viewed`, `downloaded`).
   * `mdl_assign` y `mdl_assign_submission`: Fechas de cierre (`due_date`) y estados de envio (`submission_status`).
   * `mdl_resource`, `mdl_url`, `mdl_page`: Catalogo de materiales formativos de la semana.

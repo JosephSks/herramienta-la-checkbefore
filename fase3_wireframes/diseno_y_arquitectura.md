@@ -2,7 +2,7 @@
 
 ## 1. Introducción y Enfoque del Prototipo
 
-CheckBefore es una herramienta de Learning Analytics integrada en la plataforma institucional eVirtual (Moodle) de la Universidad de Cuenca. Su objetivo central es apoyar la toma de decisiones pedagógicas docentes y la autorregulación estudiantil 48 horas antes del cierre de una tarea evaluable.
+CheckBefore es una herramienta de Learning Analytics integrada en la plataforma institucional Moodle de la Universidad de Cuenca. Su objetivo central es apoyar la toma de decisiones pedagógicas docentes y la autorregulación estudiantil 48 horas antes del cierre de una tarea evaluable.
 
 CheckBefore evita actuar como una simple alarma de calendario (que Moodle ya incluye de forma nativa). En su lugar, analiza el comportamiento analítico previo: evalúa mediante el Índice de Preparación Previa (IPP) si el estudiante ha consultado los recursos clave de estudio (guías, PDFs teóricos, videos explicativos) antes de que venza el plazo.
 
@@ -46,7 +46,7 @@ La arquitectura de CheckBefore conecta la extracción de logs de navegación de 
    - Procesa los eventos ocurridos dentro de la ventana previa a las 48 horas de la entrega programada (V05).
    - Computa las variables derivadas (D01, D02, D03, D04).
 3. Persistencia Temporal:
-   - Registra métricas en la tabla interna mdl_checkbefore_metrics para renderizado ágil del tema de eVirtual.
+   - Registra métricas en la tabla interna mdl_checkbefore_metrics para renderizado ágil del tema de Moodle.
 4. Capa de Presentación:
    - Vistas adaptadas a los permisos del usuario (docente vs. estudiante).
 

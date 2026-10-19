@@ -10,7 +10,7 @@ En esta carpeta se alojan la especificación de diseño, arquitectura y prototip
 ## Contenido del Diseño:
 1. **Wireframes (3 pantallas principales):**
    - **Pantalla 1:** Dashboard general del docente (vista por paralelo con gráfico de dona, semáforo e intervención masiva).
-   - **Pantalla 2:** Vista del estudiante (Widget de autorregulación "Mi CheckBefore" en Moodle eVirtual).
+   - **Pantalla 2:** Vista del estudiante (Widget de autorregulación "Mi CheckBefore" en Moodle).
    - **Pantalla 3:** Modal de intervención docente para envío de retroalimentación pedagógica a escala.
 2. **Anotaciones e Indicadores:**
    - Mapeo directo entre elementos de la UI y las variables derivadas (D01 a D07).

@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" style="background-color: #f4f6f8; font-family: Arial, sans-serif;">
   <!-- Header Moodle -->
   <rect x="0" y="0" width="1200" height="60" fill="#1e293b"/>
-  <text x="30" y="37" fill="#ffffff" font-size="18" font-weight="bold">Universidad de Cuenca | eVirtual</text>
+  <text x="30" y="37" fill="#ffffff" font-size="18" font-weight="bold">Universidad de Cuenca | Moodle</text>
   <text x="920" y="37" fill="#cbd5e1" font-size="14">Docente: Xavier Pena | Ciencia de Datos</text>
 
   <!-- Sub-header -->

@@ -128,7 +128,7 @@ Estas preguntas surgen directamente del diseno de validacion y no pueden respond
 ---
 
 **Pregunta 4: Control de variables confusoras entre grupos**
-> Los dos paralelos piloto podrian diferir en rendimiento academico historico, motivacion inicial o nivel de experiencia con eVirtual antes del inicio del estudio. ¿Que metodo estadistico permite aislar el efecto real de CheckBefore de esas diferencias previas: el modelo de covarianza (ANCOVA), el emparejamiento por puntuacion de propension (propensity score matching) o un modelo mixto de efectos fijos y aleatorios?
+> Los dos paralelos piloto podrian diferir en rendimiento academico historico, motivacion inicial o nivel de experiencia con Moodle antes del inicio del estudio. ¿Que metodo estadistico permite aislar el efecto real de CheckBefore de esas diferencias previas: el modelo de covarianza (ANCOVA), el emparejamiento por puntuacion de propension (propensity score matching) o un modelo mixto de efectos fijos y aleatorios?
 
 *Motivacion:* Si el Grupo A tenia un rendimiento historico superior al Grupo B antes del inicio del piloto, cualquier diferencia en la tasa de entrega podria atribuirse a esa ventaja previa y no a la herramienta.
 

@@ -28,7 +28,7 @@
 **Visual:** Diapositiva 1 (Titulo y equipo) -> Diapositiva 2 (Problema y Decision).
 
 *(0:00 - 0:15) Apertura y definicion del problema:*
-> "Buenos dias profesor y companeros. Hoy presentamos CheckBefore, una herramienta de Learning Analytics concebida para la plataforma eVirtual de la Universidad de Cuenca.  
+> "Buenos dias profesor y companeros. Hoy presentamos CheckBefore, una herramienta de Learning Analytics concebida para la plataforma Moodle de la Universidad de Cuenca.  
 > En nuestros primeros ciclos universitarios enfrentamos una realidad constante: los estudiantes no reprueban las tareas complejas por falta de capacidad o por olvido de la fecha, sino por procrastinacion critica. Los registros demuestran que abren las actividades entre tres y cinco horas antes del cierre, sin haber revisado previamente las guias ni los ejercicios base."
 
 *(0:15 - 0:40) La decision que hoy se toma a ciegas:*
@@ -46,7 +46,7 @@
 **Visual:** Diapositiva 3 (Arquitectura de datos Moodle) -> Diapositiva 4 (Formulacion del IPP y Semaforo).
 
 *(1:00 - 1:25) Fuentes institucionales y etica:*
-> "Para responder a esta pregunta, CheckBefore extrae datos que ya existen en la infraestructura de la universidad: los logs estandares de eVirtual (`mdl_logstore_standard_log`) y el modulo de tareas (`mdl_assign`).  
+> "Para responder a esta pregunta, CheckBefore extrae datos que ya existen en la infraestructura de la universidad: los logs estandares de Moodle (`mdl_logstore_standard_log`) y el modulo de tareas (`mdl_assign`).  
 > Bajo un diseno etico riguroso, los datos se anonimizan mediante identificadores hash SHA-256. No usamos datos socioeconomicos ni penalizamos el tiempo de pantalla para proteger a quienes estudian sin conexion; un evento de descarga se valida como consulta efectiva."
 
 *(1:25 - 1:45) El indicador central: Indice de Preparacion Previa (IPP):*

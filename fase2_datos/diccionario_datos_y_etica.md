@@ -2,7 +2,7 @@
 
 ## 1. Introduccion
 
-Este documento especifica de manera formal las variables, fuentes de datos, transformaciones e indicadores que la herramienta CheckBefore requiere para operar dentro del entorno eVirtual (Moodle) de la Universidad de Cuenca. Adicionalmente, se desarrolla el marco etico y de privacidad que rige el tratamiento de la informacion, incluyendo las estrategias de anonimizacion, control de acceso y mitigacion de sesgos algoritmicos.
+Este documento especifica de manera formal las variables, fuentes de datos, transformaciones e indicadores que la herramienta CheckBefore requiere para operar dentro del entorno Moodle de la Universidad de Cuenca. Adicionalmente, se desarrolla el marco etico y de privacidad que rige el tratamiento de la informacion, incluyendo las estrategias de anonimizacion, control de acceso y mitigacion de sesgos algoritmicos.
 
 Las variables documentadas a continuacion se derivan directamente de las tablas internas de Moodle y del modulo de actividades (`mod_assign`, `mod_resource`, `mod_url`, `mod_page`) y del registro estandar de eventos (`logstore_standard_log`). Para la prueba de concepto (Fase 4), estas variables se mapean a las tablas equivalentes del dataset publico OULAD (Open University Learning Analytics Dataset).
 
@@ -112,7 +112,7 @@ El diseno etico de CheckBefore se enmarca en los principios de la declaracion de
 | Identificacion del estudiante | El `student_id` utilizado internamente por CheckBefore se genera mediante una funcion hash irreversible (SHA-256) aplicada al ID real de Moodle. El sistema nunca almacena nombres, cedulas ni correos electronicos en sus tablas de calculo. |
 | Datos mostrados al docente | El panel del docente muestra los nombres completos de los estudiantes (ya disponibles en el calificador de Moodle), pero **no** genera archivos exportables ni permite descargas masivas de datos individuales fuera de la plataforma. |
 | Datos mostrados al estudiante | El estudiante solo accede a sus propios indicadores. No puede ver el IPP, el semaforo ni los habitos de consulta de sus companeros bajo ninguna circunstancia. |
-| Almacenamiento | Los indicadores calculados se almacenan temporalmente en la base de datos del plugin de Moodle y se eliminan automaticamente al finalizar el periodo academico, respetando la politica institucional de retencion de datos de eVirtual. |
+| Almacenamiento | Los indicadores calculados se almacenan temporalmente en la base de datos del plugin de Moodle y se eliminan automaticamente al finalizar el periodo academico, respetando la politica institucional de retencion de datos de Moodle. |
 
 ### 4.3 Matriz de permisos de acceso
 
@@ -121,7 +121,7 @@ El diseno etico de CheckBefore se enmarca en los principios de la declaracion de
 | Estudiante | Su propio IPP, su semaforo de riesgo, la lista de recursos pendientes de consulta para cada tarea activa. | Indicadores de cualquier otro estudiante, estadisticas agregadas del curso, modelo predictivo subyacente. |
 | Docente titular | Panel de semaforo del curso completo con todos los estudiantes de su paralelo, IPP individual de cada alumno, opcion de enviar mensajes de orientacion. | Datos de estudiantes de otros paralelos o cursos, datos demograficos o socioeconomicos no disponibles en Moodle. |
 | Coordinador / Director de carrera | Estadisticas agregadas por paralelo (porcentaje de estudiantes en rojo/amarillo/verde), sin identificacion individual. | Datos individuales de estudiantes ni sus nombres. |
-| Administrador de eVirtual | Acceso tecnico a las tablas del plugin para mantenimiento y depuracion, sin interfaz de consulta pedagogica. | No tiene una vista de panel pedagogico; su acceso es exclusivamente tecnico. |
+| Administrador de Moodle | Acceso tecnico a las tablas del plugin para mantenimiento y depuracion, sin interfaz de consulta pedagogica. | No tiene una vista de panel pedagogico; su acceso es exclusivamente tecnico. |
 
 ### 4.4 Consentimiento informado
 
@@ -132,7 +132,7 @@ Al inicio de cada periodo academico, al ingresar por primera vez a un curso que 
 3. Que el docente podra ver su nivel de preparacion de forma agregada.
 4. Que puede solicitar al docente la desactivacion de las alertas personales si lo considera pertinente, sin consecuencia academica alguna.
 
-Este aviso seguira el formato de los acuerdos institucionales de uso de eVirtual vigentes en la Universidad de Cuenca.
+Este aviso seguira el formato de los acuerdos institucionales de uso de Moodle vigentes en la Universidad de Cuenca.
 
 ### 4.5 Identificacion y mitigacion de sesgos
 

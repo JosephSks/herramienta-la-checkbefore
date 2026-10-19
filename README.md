@@ -10,7 +10,7 @@
 
 ## Descripcion General del Proyecto
 
-**CheckBefore** es una propuesta de herramienta de *Learning Analytics* diseñada específicamente para el entorno virtual de aprendizaje **eVirtual (Moodle)** de la Universidad de Cuenca. Su objetivo es diagnosticar el nivel de interacción previa y preparación de los estudiantes frente a tareas y actividades evaluables complejas, habilitando alertas tempranas para el docente 48 horas antes de la fecha límite de entrega.
+**CheckBefore** es una propuesta de herramienta de *Learning Analytics* diseñada específicamente para el entorno virtual de aprendizaje **Moodle** de la Universidad de Cuenca. Su objetivo es diagnosticar el nivel de interacción previa y preparación de los estudiantes frente a tareas y actividades evaluables complejas, habilitando alertas tempranas para el docente 48 horas antes de la fecha límite de entrega.
 
 A diferencia de los recordatorios tradicionales basados en calendario (que únicamente notifican fechas de vencimiento), CheckBefore analiza la consulta efectiva de los recursos pedagógicos de base (guías, lecturas clave, videos instructivos) para apoyar decisiones docentes oportunas que mitiguen la procrastinación académica y reduzcan la tasa de tareas no entregadas.
 
@@ -33,7 +33,7 @@ A diferencia de los recordatorios tradicionales basados en calendario (que únic
 * **Tipo de analítica:** Apoyo a la enseñanza (orientación instruccional docente) y apoyo al aprendizaje (autorregulación del estudiante).
 
 ### Bloque 4: Datos e indicadores
-* **Fuentes institucionales:** Registros de eventos de navegación (*logs*) de Moodle (eVirtual UCuenca) y base de datos del módulo de tareas (tablas `mdl_assign_submission` y `mdl_logstore_standard_log`).
+* **Fuentes institucionales:** Registros de eventos de navegación (*logs*) de Moodle (UCuenca) y base de datos del módulo de tareas (tablas `mdl_assign_submission` y `mdl_logstore_standard_log`).
 * **Variables clave:** Identificador anónimo de estudiante, ID de la tarea, marca temporal de cierre programado, registros de visualización/descarga de materiales formativos (PDFs, guías, videos) y estado de entrega de la tarea.
 * **Indicador central - Índice de Preparación Previa (IPP):**
   $$\text{IPP} = \left( \frac{\text{Recursos formativos clave consultados}}{\text{Total de recursos formativos asignados}} \right) \times 100$$
@@ -44,7 +44,7 @@ A diferencia de los recordatorios tradicionales basados en calendario (que únic
 
 ### Bloque 5: Intervención pedagógica
 * **Acción habilitada para el docente:** Acceso a un panel sintético con el listado de estudiantes clasificados por el semáforo de riesgo a 48 horas del cierre. Mediante una opción de acción rápida en la interfaz, el docente puede remitir un mensaje pedagógico focalizado al segmento en rojo, recordando la ruta de estudio sugerida, aclarando conceptos clave o convocando a un espacio voluntario de resolución de dudas.
-* **Acción habilitada para el estudiante:** Notificación reflexiva en su panel de eVirtual alertando sobre los insumos pendientes de lectura antes de acometer la tarea.
+* **Acción habilitada para el estudiante:** Notificación reflexiva en su panel de Moodle alertando sobre los insumos pendientes de lectura antes de acometer la tarea.
 * **Ejecutores:** El docente lidera la orientación pedagógica; el estudiante ejecuta la autorregulación del tiempo de estudio.
 * **Riesgo de no actuar:** Mantenimiento de altos índices de abandono de tareas, entregas apresuradas de baja calidad y desaprovechamiento de las instancias de tutoría académica.
 
